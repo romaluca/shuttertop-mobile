@@ -1,0 +1,66 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "Submit a new Build to Alpha"
+  lane :alpha do
+    gradle(task: 'clean')
+    increment_version_code
+    sh "cd /home/luca/dev/shuttertop_app && flutter build apk"
+    git_add
+    git_commit(path: "../*", message: "New alpha release")
+    push_to_git_remote
+    upload_to_play_store(
+      track: 'alpha',
+      apk: '../build/app/outputs/apk/release/app-release.apk',
+      skip_upload_screenshots: true,
+      skip_upload_images: true
+    )
+    # crashlytics
+  end
+
+  lane :beta do
+    gradle(task: 'clean')
+    increment_version_code
+    sh "cd /home/luca/dev/shuttertop_app && flutter build apk"
+    upload_to_play_store(
+      track: 'beta',
+      apk: '../build/app/outputs/apk/release/app-release.apk',
+      skip_upload_screenshots: true,
+      skip_upload_images: true
+    )
+    # crashlytics
+  end
+
+  desc "Deploy a new version to the Google Play"
+  lane :deploy do
+    gradle(task: 'clean')
+    increment_version_code
+    sh "cd /home/luca/dev/shuttertop_app && flutter build apk"
+    upload_to_play_store(
+      track: 'production',
+      apk: '../build/app/outputs/apk/release/app-release.apk',
+      skip_upload_screenshots: true,
+      skip_upload_images: true
+    )
+  end
+end

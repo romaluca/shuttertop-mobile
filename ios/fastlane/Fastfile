@@ -1,0 +1,41 @@
+update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Push a new beta build to TestFlight"
+  lane :beta do    
+    git_pull
+    sh "cd /Users/luca/IdeaProjects/shuttertop && flutter build ios"
+    get_certificates
+    get_provisioning_profile
+    increment_build_number(xcodeproj: "Runner.xcodeproj") 
+    increment_version_number_in_plist(
+        omit_zero_patch_version: true
+    )
+    git_add
+    git_commit(path: ["./Runner/Info.plist", "./Runner.xcodeproj/project.pbxproj"], message: "New ios release")
+    push_to_git_remote    
+    build_app(workspace: "Runner.xcworkspace", scheme: "Runner")
+    upload_to_testflight(skip_waiting_for_build_processing: true)
+    reset_git_repo(force: true)
+  end
+  desc "Push a new release build to the App Store"
+  lane :release do        
+    git_pull
+    increment_build_number(xcodeproj: "Runner.xcodeproj")
+    get_certificates
+    get_provisioning_profile    
+    git_add
+    git_commit(path: ["./Runner/Info.plist", "./Runner.xcodeproj/project.pbxproj"], message: "New ios release")
+    push_to_git_remote
+    build_app(workspace: "Runner.xcworkspace", scheme: "Runner")
+    upload_to_app_store(submit_for_review: true,
+                            automatic_release: true,
+                            skip_screenshots: true,
+                            force: true,
+                            skip_waiting_for_build_processing: true)
+    reset_git_repo(force: true)
+  end
+end
+

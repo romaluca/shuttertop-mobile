@@ -1,0 +1,861 @@
+{
+  "@@last_modified": "2018-10-13T16:33:22.975243",
+  "createAccountShuttertop": "Crea un nuovo account",
+  "@createAccountShuttertop": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "accediConLaMail": "Accedi con la mail",
+  "@accediConLaMail": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "oppure": "oppure",
+  "@oppure": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "continuaCon": "continua con",
+  "@continuaCon": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contestFotograficiImprovvisati": "Contest fotografici improvvisati",
+  "@contestFotograficiImprovvisati": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonRiescoAConnettermiAllaReteCiRiprovoPerLaVolta": "Non riesco a connettermi alla rete. Ci riprovo per la {retry}° volta tra 5 secondi.",
+  "@nonRiescoAConnettermiAllaReteCiRiprovoPerLaVolta": {
+    "type": "text",
+    "placeholders": {
+      "retry": {}
+    }
+  },
+  "perProseguireENecessarioAggiornaleLapp": "Per proseguire è necessario aggiornare l' app",
+  "@perProseguireENecessarioAggiornaleLapp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "errore": "Errore :( {error}",
+  "@errore": {
+    "type": "text",
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "sputaIlRospo": "Sputa il rospo...",
+  "@sputaIlRospo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sistemaGliErroriPerContinuare": "Sistema gli errori per continuare",
+  "@sistemaGliErroriPerContinuare": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "problemiDiConnessioneAlServer": "Problemi di connessione al server :(",
+  "@problemiDiConnessioneAlServer": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "esisteGiaUnContestInCorsoConQuestoNome": "Esiste già un contest in corso con questo nome..",
+  "@esisteGiaUnContestInCorsoConQuestoNome": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cambiaNome": "Cambia nome",
+  "@cambiaNome": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "portamici": "Portamici",
+  "@portamici": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nuovaEdizione": "Nuova edizione",
+  "@nuovaEdizione": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nuovoContest": "Nuovo contest",
+  "@nuovoContest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "modificaContest": "Modifica contest",
+  "@modificaContest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nome": "Nome",
+  "@nome": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonTiDilungareTagliaCorto": "Non ti dilungare, taglia corto",
+  "@nonTiDilungareTagliaCorto": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "terminaIl": "Termina il",
+  "@terminaIl": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "categoria": "Categoria",
+  "@categoria": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "scegliUnaCategoria": "Scegli una categoria",
+  "@scegliUnaCategoria": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fornisciUnaSpiegatione": "Fornisci una spiegazione",
+  "@fornisciUnaSpiegatione": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "descrizione": "Descrizione",
+  "@descrizione": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "crea": "Crea",
+  "@crea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "scendiInCampo": "Scendi in campo",
+  "@scendiInCampo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "inserisciLaCover": "Inserisci la cover",
+  "@inserisciLaCover": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "modificaIlContest": "Modifica il contest",
+  "@modificaIlContest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "inserisciUnImmagineDiCopertiva": "Inserisci un immagine di copertina",
+  "@inserisciUnImmagineDiCopertiva": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "Home",
+  "@home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "info": "Info",
+  "@info": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "foto": "Foto",
+  "@foto": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "classifica": "Classifica",
+  "@classifica": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "followers": "Followers",
+  "@followers": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cercaUnContest": "Cerca un contest...",
+  "@cercaUnContest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contest": "Contest",
+  "@contest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cerca": "Cerca",
+  "@cerca": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "recenti": "Recenti",
+  "@recenti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "popolari": "Popolari",
+  "@popolari": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "terminati": "Terminati",
+  "@terminati": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "gareInCorso": "Gare in corso",
+  "@gareInCorso": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "vittorie": "Vittorie",
+  "@vittorie": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonCiSonoStateVittorie": "Non ci sono state vittorie",
+  "@nonCiSonoStateVittorie": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonCiSonoGareInCorso": "Non ci sono gare in corso",
+  "@nonCiSonoGareInCorso": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonCiSonoFoto": "Non ci sono foto",
+  "@nonCiSonoFoto": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "controllaLaTuaCasellaDiPosta": "Controlla la tua casella di posta!",
+  "@controllaLaTuaCasellaDiPosta": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "newsDalMondo": "News dal mondo",
+  "@newsDalMondo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "benvenutoSuShuttertop": "Benvenuto su Shuttertop",
+  "@benvenutoSuShuttertop": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "questoEIlMigliorPostoPerSficcanasare": "Questo è il miglior posto per sficcanasare le novità dei paraggi. Trova adesso contest e utenti da seguire.",
+  "@questoEIlMigliorPostoPerSficcanasare": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "andiamo": "Andiamo",
+  "@andiamo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cronologiaPunti": "Cronologia punti",
+  "@cronologiaPunti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "posta": "Posta",
+  "@posta": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "messaggi": "Messaggi",
+  "@messaggi": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "notifiche": "Notifiche",
+  "@notifiche": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonCiSonoPuntiTotalizzati": "Non risultano punti totalizzati",
+  "@nonCiSonoPuntiTotalizzati": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonCiSonoNotifiche": "Non ci sono notifiche",
+  "@nonCiSonoNotifiche": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "seiSulTaciturno": "Sei sul taciturno",
+  "@seiSulTaciturno": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "controllaCheSiaCorretta": "Controlla che sia corretta!",
+  "@controllaCheSiaCorretta": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "controllaCheLaTuaVecchiaPasswordSiaCorretta": "Controlla che la tua vecchia password sia corretta!",
+  "@controllaCheLaTuaVecchiaPasswordSiaCorretta": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "laPasswordEObbligatoria": "La password è obbligatoria",
+  "@laPasswordEObbligatoria": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "laLunghezzaMinimaE6Caratteri": "La lunghezza minima è 6 caratteri",
+  "@laLunghezzaMinimaE6Caratteri": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nuovaPassword": "Nuova password",
+  "@nuovaPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cambiaPassword": "Cambia password",
+  "@cambiaPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "vecchiaPassword": "Vecchia password",
+  "@vecchiaPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "digitaLaTuaNuovaPassword": "Digita la tua nuova password",
+  "@digitaLaTuaNuovaPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "conferma": "Conferma",
+  "@conferma": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonTiAbbiamoRintracciato": "Non ti abbiamo rintracciato! :(",
+  "@nonTiAbbiamoRintracciato": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "emailEObbligatoria": "L' email è obbligatoria",
+  "@emailEObbligatoria": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "recuperoPassword": "Recupero password",
+  "@recuperoPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "digitaLaTuaEmail": "Digita la tua email",
+  "@digitaLaTuaEmail": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "Email",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "recuperati": "Recuperati",
+  "@recuperati": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contestTerminato": "Contest terminato",
+  "@contestTerminato": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fotoInOrdineDiVoti": "Foto in ordine di voti",
+  "@fotoInOrdineDiVoti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fotoInOrdineDiInserimento": "Foto in ordine di inserimento",
+  "@fotoInOrdineDiInserimento": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "impostazioni": "Impostazioni",
+  "@impostazioni": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nomeDiBattaglia": "Nome di battaglia",
+  "@nomeDiBattaglia": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "modificaFotoDelProfilo": "Modifica foto del profilo",
+  "@modificaFotoDelProfilo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "immagineDiProfilo": "Immagine di profilo",
+  "@immagineDiProfilo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cambiaLaTuaPassword": "Cambia la tua password",
+  "@cambiaLaTuaPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "informazioni": "Informazioni",
+  "@informazioni": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "esciDalTunnel": "Esci dal tunnel",
+  "@esciDalTunnel": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ancheDettoLogout": "Anche detto logout",
+  "@ancheDettoLogout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selezionaUnContest": "Seleziona un contest",
+  "@selezionaUnContest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "emailEOPasswordErrati": "Email e/o password errati",
+  "@emailEOPasswordErrati": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "login": "Login",
+  "@login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "digitaLaTuaPassword": "Digita la tua password",
+  "@digitaLaTuaPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "accedi": "Accedi",
+  "@accedi": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonHaiUnAccount": "Non hai un account?",
+  "@nonHaiUnAccount": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "iscriviti": " Iscriviti!",
+  "@iscriviti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "recuperaLa": "Recupera la ",
+  "@recuperaLa": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordWithExclamation": "password!",
+  "@passwordWithExclamation": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "usernameEObbligatorio": "L' username è obbligatorio",
+  "@usernameEObbligatorio": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "La lunghezza minima è 8 caratteri": "La lunghezza minima è 8 caratteri",
+  "@La lunghezza minima è 8 caratteri": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "registrazione": "Registrazione",
+  "@registrazione": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ciccioBello": "CiccioBello",
+  "@ciccioBello": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "siiCoincisoERuspante": "Sii coinciso e ruspante",
+  "@siiCoincisoERuspante": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "creati": "Creati",
+  "@creati": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "scrostaLaTuaImmaginazione": "Scrosta la tua immaginazione",
+  "@scrostaLaTuaImmaginazione": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "leSueFotoPiuInVoga": "Le sue foto più in voga",
+  "@leSueFotoPiuInVoga": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "eSeguitoDaQuestiTizi": "E' seguito da questi tizi",
+  "@eSeguitoDaQuestiTizi": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "luiSegueQuesti": "Lui segue questi",
+  "@luiSegueQuesti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "userFollows": "{user} segue",
+  "@userFollows": {
+    "type": "text",
+    "placeholders": {
+      "user": {}
+    }
+  },
+  "messaggio": "Messaggio",
+  "@messaggio": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "visualizzaTutti": "Visualizza tutti",
+  "@visualizzaTutti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contestCreati": "Contest creati",
+  "@contestCreati": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mondiale": "Mondiale",
+  "@mondiale": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cercaUtenti": "Cerca utenti...",
+  "@cercaUtenti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "punteggio": "Punteggio",
+  "@punteggio": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "aggiorna": "Aggiorna",
+  "@aggiorna": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "caricamento": "Caricamento...",
+  "@caricamento": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "segui": "Segui",
+  "@segui": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "condividi": "Condividi",
+  "@condividi": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "commentiTop": "{commentsCount} commenti · {votesCount} top",
+  "@commentiTop": {
+    "type": "text",
+    "placeholders": {
+      "commentsCount": {},
+      "votesCount": {}
+    }
+  },
+  "commenta": "Commenta",
+  "@commenta": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "top": "Top",
+  "@top": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "commenti": "Commenti",
+  "@commenti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "vediTuttiINCommenti": "Vedi tutti i {commentsCount} commenti",
+  "@vediTuttiINCommenti": {
+    "type": "text",
+    "placeholders": {
+      "commentsCount": {}
+    }
+  },
+  "punti": "Punti",
+  "@punti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "photosWithCount": "{photosCount} foto",
+  "@photosWithCount": {
+    "type": "text",
+    "placeholders": {
+      "photosCount": {}
+    }
+  },
+  "dettagli": "Dettagli",
+  "@dettagli": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nEdizione": "{n}th edizione",
+  "@nEdizione": {
+    "type": "text",
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "creatoDa": "Creato da",
+  "@creatoDa": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "filtriContest": "Filtri contest",
+  "@filtriContest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "salva": "Salva",
+  "@salva": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "categorie": "Categorie",
+  "@categorie": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "tutte": "Tutte",
+  "@tutte": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "partecipa": "Partecipa",
+  "@partecipa": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ripartecipa": "Ripartecipa",
+  "@ripartecipa": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "rilancia": "Rilancia",
+  "@rilancia": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fotoRecenti": "Foto recenti",
+  "@fotoRecenti": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "iSeguaci": "I seguaci",
+  "@iSeguaci": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "unVincitore": "Un vincitore",
+  "@unVincitore": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "zeroVincitori": "0 Vincitori",
+  "@zeroVincitori": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "alTermine": "Al termine",
+  "@alTermine": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nessunContestTrovato": "Nessun contest trovato",
+  "@nessunContestTrovato": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "aggiungiUnContest": "Aggiungi un contest",
+  "@aggiungiUnContest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "winner": "Winner",
+  "@winner": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nTop": "{votesCount} top",
+  "@nTop": {
+    "type": "text",
+    "placeholders": {
+      "votesCount": {}
+    }
+  },
+  "inClassifica": "In classifica",
+  "@inClassifica": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "classificato": "Classificato",
+  "@classificato": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "iSostenitori": "I sostenitori",
+  "@iSostenitori": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "infoFoto": "Info foto",
+  "@infoFoto": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "rapportoFocale": "rap. focale",
+  "@rapportoFocale": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "tempoEsposizione": "tempo esp.",
+  "@tempoEsposizione": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lunghezzaFocale": "lung. focale",
+  "@lunghezzaFocale": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nessunaFotoInserita": "Nessuna foto inserita",
+  "@nessunaFotoInserita": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "percheNonTiAggrada": "Perchè non ti aggrada?",
+  "@percheNonTiAggrada": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "motivo": "Motivo",
+  "@motivo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "esScombinaIlMioCervello": "es. scombina il mio cervello",
+  "@esScombinaIlMioCervello": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "annulla": "Annulla",
+  "@annulla": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invia": "Invia",
+  "@invia": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "seiSicuro": "Sei sicuro?",
+  "@seiSicuro": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "rimuovi": "Rimuovi",
+  "@rimuovi": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "segnala": "Segnala",
+  "@segnala": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "modificaUsername": "Modifica {username}",
+  "@modificaUsername": {
+    "type": "text",
+    "placeholders": {
+      "username": {}
+    }
+  },
+  "camuffati": "Camuffati",
+  "@camuffati": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonSeguire": "Non seguire",
+  "@nonSeguire": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "seguilo": "Seguilo",
+  "@seguilo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "inGara": "In gara",
+  "@inGara": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "puntiWithScore": "{score} punti",
+  "@puntiWithScore": {
+    "type": "text",
+    "placeholders": {
+      "score": {}
+    }
+  },
+  "vittorieWithCount": "{count} vittorie",
+  "@vittorieWithCount": {
+    "type": "text",
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "ilTuoProfilo": "Il tuo profilo",
+  "@ilTuoProfilo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "creaUnContest": "Crea un contest",
+  "@creaUnContest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "scattaUnaFoto": "Scatta una foto",
+  "@scattaUnaFoto": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "apriLaGalleria": "Apri la galleria",
+  "@apriLaGalleria": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

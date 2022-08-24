@@ -1,0 +1,161 @@
+{
+  "project_info": {
+    "project_number": "1023268944637",
+    "firebase_url": "https://shuttertop-183111.firebaseio.com",
+    "project_id": "shuttertop-183111",
+    "storage_bucket": "shuttertop-183111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023268944637:android:eafbfba860d5cdcd",
+        "android_client_info": {
+          "package_name": "com.shuttertop.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023268944637-dafprfe6c748fg2rnlpamueua2e8u84c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttertop.android",
+            "certificate_hash": "eaccd46a105d261ce4c65cad54908513cf882d65"
+          }
+        },
+        {
+          "client_id": "1023268944637-0tbglvrp54lqu2qfpe88esl419fn4ju1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttertop.android",
+            "certificate_hash": "0d648f7b812fec247883b1f8296d488c590883ca"
+          }
+        },
+        {
+          "client_id": "1023268944637-mnckf4e78q4itr6o3sg0ip1kt7akfqo4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttertop.android",
+            "certificate_hash": "65b7d0d3ea97d120c6c964fdc933b81a17742f0b"
+          }
+        },
+        {
+          "client_id": "1023268944637-5p5tec1scr17vonn5q4ksftaimdjnm3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttertop.android",
+            "certificate_hash": "d92a161929a2fb577b87883466ed62d3debf802a"
+          }
+        },
+        {
+          "client_id": "1023268944637-oks7m7etfktlhpj0b93j0ngq06a4jhjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDorlg6delWn0aS2egBadWbOxrdltWDecs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023268944637-oks7m7etfktlhpj0b93j0ngq06a4jhjq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1023268944637-pvtjufustcv7dvcnoi8lt28jjdkfqmk9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shuttertop.app"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023268944637:android:1416cca0a4424452",
+        "android_client_info": {
+          "package_name": "com.shuttertop.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023268944637-221dhvbrlsgrap5udufhp2t4jjr1qidt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttertop.app",
+            "certificate_hash": "eaccd46a105d261ce4c65cad54908513cf882d65"
+          }
+        },
+        {
+          "client_id": "1023268944637-ei03a10o5phgp0h7iv0cuojsb2p1dems.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttertop.app",
+            "certificate_hash": "0d648f7b812fec247883b1f8296d488c590883ca"
+          }
+        },
+        {
+          "client_id": "1023268944637-hnn4vp7457f1hssa2in0pd5jv74qj6gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttertop.app",
+            "certificate_hash": "65b7d0d3ea97d120c6c964fdc933b81a17742f0b"
+          }
+        },
+        {
+          "client_id": "1023268944637-4uhqetmlmjkgclfqrq4bcghbhpv5u197.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shuttertop.app",
+            "certificate_hash": "d92a161929a2fb577b87883466ed62d3debf802a"
+          }
+        },
+        {
+          "client_id": "1023268944637-oks7m7etfktlhpj0b93j0ngq06a4jhjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDorlg6delWn0aS2egBadWbOxrdltWDecs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023268944637-oks7m7etfktlhpj0b93j0ngq06a4jhjq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1023268944637-pvtjufustcv7dvcnoi8lt28jjdkfqmk9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shuttertop.app"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

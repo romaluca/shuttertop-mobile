@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <string name="app_name">Shuttertop</string>
+
+
+        <string name="facebook_app_id">436011423257505</string>
+
+
+        <string name="fb_login_protocol_scheme">fb436011423257505</string>
+
+</resources>

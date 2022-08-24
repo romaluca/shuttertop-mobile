@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: update_fastlane" time="0.091234432">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000839654">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: gradle" time="3.024896477">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: increment_version_code" time="0.018080586">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: cd /home/luca/dev/shuttertop_app &amp;&amp; flutter build apk" time="9.85523195">
+        
+          <failure message="/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/fast_file.rb:191:in `sh'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/fast_file.rb:186:in `sh'&#10;Fastfile:28:in `block (2 levels) in parsing_binding'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/var/lib/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/var/lib/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/var/lib/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/var/lib/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/commands_generator.rb:333:in `run'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/var/lib/gems/2.5.0/gems/fastlane-2.116.1/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'cd /home/luca/dev/shuttertop_app &amp;&amp; flutter build apk' was 1 instead of 0.&#10;Initializing gradle...                                              0.8s&#10;Resolving dependencies...                                           3.9s&#10;Running Gradle task 'assembleRelease'...                        &#10;registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)&#10;&#10;registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)&#10;&#10;registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)&#10;&#10;registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)&#10;&#10;registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)&#10;&#10;Note: /home/luca/programs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_admob-0.8.0+3/android/src/main/java/io/flutter/plugins/firebaseadmob/AdRequestBuilderFactory.java uses or overrides a deprecated API.&#10;&#10;Note: Recompile with -Xlint:deprecation for details.&#10;&#10;Note: /home/luca/programs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.3.1+1/android/src/main/java/io/flutter/plugins/firebase/core/FirebaseCorePlugin.java uses unchecked or unsafe operations.&#10;&#10;Note: Recompile with -Xlint:unchecked for details.&#10;&#10;Note: Some input files use or override a deprecated API.&#10;&#10;Note: Recompile with -Xlint:deprecation for details.&#10;&#10;/home/luca/programs/flutter/.pub-cache/git/plugins-09771c4d23258905bcb1e484257774ad81c92fdc/packages/image_picker/android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerDelegate.java:245: error: method finishWithAlreadyActiveError in class ImagePickerDelegate cannot be applied to given types;&#10;&#10;      finishWithAlreadyActiveError();&#10;&#10;      ^&#10;&#10;  required: Result&#10;&#10;  found: no arguments&#10;&#10;  reason: actual and formal argument lists differ in length&#10;&#10;1 error&#10;&#10;&#10;&#10;FAILURE: Build failed with an exception.&#10;&#10;&#10;&#10;* What went wrong:&#10;&#10;Execution failed for task ':image_picker:compileReleaseJavaWithJavac'.&#10;&#10;&gt; Compilation failed; see the compiler error output for details.&#10;&#10;&#10;&#10;* Try:&#10;&#10;Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.&#10;&#10;&#10;&#10;* Get more help at https://help.gradle.org&#10;&#10;&#10;&#10;BUILD FAILED in 3s&#10;Running Gradle task 'assembleRelease'...                            4.2s&#10;Gradle task assembleRelease failed with exit code 1&#10;" />
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
